@@ -1,0 +1,11 @@
+@font-face {
+    font-family: '';
+    src: url('OKDDUNGA1.eot');
+    src: url('OKDDUNGA1.eot?#iefix') format('embedded-opentype'),
+        url('OKDDUNGA1.woff2') format('woff2'),
+        url('OKDDUNGA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
