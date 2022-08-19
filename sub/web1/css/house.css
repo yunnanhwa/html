@@ -16,8 +16,8 @@
             /*..........*/
             width: 120px;
             height: 40px;
-            background-color:black ;
-            color: rgb(255, 255, 255);
+            background-color:rgb(136, 215, 230) ;
+            color: rgb(3, 2, 2);
             text-align: center;
             line-height: 40px;
             display:block;
@@ -29,7 +29,7 @@
          
         body {
             line-height: 2;
-            color: black;
+            color: #333;
             font-weight: 400;
         }
 
@@ -44,7 +44,7 @@
         header .title h1 {
             
             font-size: 55px;
-            color: rgb(247, 69, 69);
+            color: rgba(253, 0, 0, 0.925);
 
         }
        
@@ -153,44 +153,111 @@
          } */
 
     
-       
-        div.list .img4 {
+    /* =======================   header end    ============================   */
+    /* =======================   cont01    ============================   */
+
+    .cont01 {
+            
+        width: 1440px;
+        height: 0 auto;
+        margin: 0 auto;
+        text-align: center;
+        background-color: rgb(219, 201, 231);
+        border-radius: 40px;
+        
+        
+    }
+
+    .cont01 h3 {
+        font-size: 40px; /* cỡ chữ */
+        color:rgba(7, 6, 6, 0.582);
+        margin-bottom: 50px; /* lề dưới */
+        margin-top: 50px;
+        
+    }
+
+
+    .cont01 .list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* margin-left: 37px;
+        margin-right: 37px; */
+    } 
+    
+
+    
+    .cont01 .list .item {
+        width: 464px;
+        
+        
+    } 
+
+
+    .cont01 .list .item div {
+        
+        
+        
+    }
+    .cont01 .list .item img {
+        display: block;
+    }
+    
+    .cont01 .list div strong {
+        /* font-size: 20px;
+        display: block;
+        margin-bottom: 0;
+        letter-spacing:1px;
+        
+        font-weight: 700;
+         */
+        font-size: 17px;
+        margin-bottom:17px;
+    }
+
+    .cont01 .list .item div p {
+        font-size: 14px;
+        margin-bottom: 50px
+
+    }
+        
+        .cont01 .list .item .img4 {
             width: 464px;
-            height: 446px;
+            height: 324px;
             display: block;
             border-radius: 40px;
         }
         
-        div.list .img5 {
+        .cont01 .list .item .img5 {
             width: 464px;
-            height: 446px;
+            height: 324px;
             display: block;
             border-radius: 40px;
         }
-        div.list .img6 {
+        .cont01 .list .item .img6 {
             width: 464px;
-            height: 446px;
+            height: 324px;
             display: block;
             border-radius: 40px;
         }
-        div.list .img7 {
+        .cont01 .list .item .img7 {
             width: 464px;
-            height: 446px;
+            height: 324px;
             display: block;
             border-radius: 40px;
         }
-        div.list .img8 {
+        .cont01 .list .item .img8 {
             width: 464px;
-            height: 446px;
+            height: 324px;
             display: block;
             border-radius: 40px;
         }
-        div.list .img9 {
+        .cont01 .list .item .img9 {
             width: 464px;
-            height: 446px;
+            height: 324px;
             display: block;
             border-radius: 40px;
-        }
+        } 
 
         /* ................... */
         
@@ -202,59 +269,7 @@
 
         /* .cont01 */
 
-        .cont01 {
-            
-            width: 1440px;
-            height: auto;
-            margin: 0 auto;
-            text-align: center;
-            background-color: rgb(219, 201, 231);
-            border-radius: 40px;
-            
-        }
 
-        .cont01 h3 {
-            font-size: 40px; /* cỡ chữ */
-            color:rgba(7, 6, 6, 0.582);
-            margin-bottom: 30px; /* lề dưới */
-            margin-top: 30px;
-            
-        }
-
-
-         .cont01 .list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        } 
-        
-        
-        .cont01 .list .item {
-            
-        } 
-        .cont01 .list .item div {
-            
-            
-           
-        }
-        .cont01 .list .item img {
-            display: block;
-        }
-        
-        .cont01 .list div strong {
-            /* font-size: 20px;
-            display: block;
-            margin-bottom: 0;
-            letter-spacing:1px;
-            
-            font-weight: 700;
-             */
-             font-size: 20px;
-            
-        }
-        .cont01 .list .item div p {
-            font-size: 15px;
-        }
 
         
 
@@ -265,10 +280,12 @@
         footer {
             background-color: black;
             padding: 40px 0;
+            
         }
         footer p {
             color: rgb(255, 255, 255);
             text-align: center;
+            
                 
         }
         
