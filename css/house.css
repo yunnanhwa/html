@@ -16,8 +16,8 @@
             /*..........*/
             width: 120px;
             height: 40px;
-            background-color:black ;
-            color: rgb(255, 255, 255);
+            background-color:rgb(136, 215, 230) ;
+            color: rgb(3, 2, 2);
             text-align: center;
             line-height: 40px;
             display:block;
@@ -29,7 +29,7 @@
          
         body {
             line-height: 2;
-            color: black;
+            color: #333;
             font-weight: 400;
         }
 
@@ -44,7 +44,7 @@
         header .title h1 {
             
             font-size: 55px;
-            color: rgb(247, 69, 69);
+            color: rgba(253, 0, 0, 0.925);
 
         }
        
